@@ -1,0 +1,35 @@
+plugins {
+	id 'com.android.application' version '8.13.0' apply false
+	id 'com.android.library' version '8.13.0' apply false
+	id 'com.google.gms.google-services' version '4.4.4' apply false
+	id 'com.google.firebase.crashlytics' version '3.0.6' apply false
+	id 'com.diffplug.spotless' version '7.0.2'
+}
+
+import java.util.Base64
+
+def headerBase64 = "LyoKKiBDb3B5cmlnaHQgKGMpIDIwMjYgU2hhZmlxdWwgSXNsYW0gU2hhbWltCiogR2l0SHViOiBodHRwczovL2dpdGh1Yi5jb20vU2hhZmlxdWxJc2xhbVNoYW1pbS9SZXN1bHQtVmlldwoqIAoqIEFsbCBSaWdodHMgUmVzZXJ2ZWQuCiogCiogVGhpcyBzb3VyY2UgY29kZSBpcyBtYWRlIHB1YmxpY2x5IGF2YWlsYWJsZSBzb2xlbHkgZm9yIHZpZXdpbmcsIGNvbGxhYm9yYXRpb24sCiogZWR1Y2F0aW9uYWwgcmVmZXJlbmNlLCBhbmQgc3VibWl0dGluZyBwdWxsIHJlcXVlc3RzIHRvIHRoZSBvZmZpY2lhbCByZXBvc2l0b3J5LgoqIAoqIE5vIHBlcm1pc3Npb24gaXMgZ3JhbnRlZCB0byBjb3B5LCBtb2RpZnksIHJlZGlzdHJpYnV0ZSwgc3VibGljZW5zZSwgb3IgdXNlCiogdGhpcyBzb3VyY2UgY29kZSwgaW4gd2hvbGUgb3IgaW4gcGFydCwgZm9yIHBlcnNvbmFsLCBjb21tZXJjaWFsLCBvciBhbnkgb3RoZXIKKiBwdXJwb3NlIHdpdGhvdXQgdGhlIHByaW9yIHdyaXR0ZW4gcGVybWlzc2lvbiBvZiB0aGUgY29weXJpZ2h0IGhvbGRlci4KKi8K"
+
+spotless {
+	java {
+		target '**/*.java'
+		licenseHeader(new String(Base64.decoder.decode(headerBase64), 'UTF-8'))
+		googleJavaFormat()
+		trimTrailingWhitespace()
+		endWithNewline()
+	}
+
+	format('xml') {
+		target '**/*.xml'
+		eclipseWtp('xml')
+		trimTrailingWhitespace()
+		endWithNewline()
+	}
+
+	groovyGradle {
+		target '*.gradle', '**/*.gradle'
+		greclipse()
+		trimTrailingWhitespace()
+		endWithNewline()
+	}
+}

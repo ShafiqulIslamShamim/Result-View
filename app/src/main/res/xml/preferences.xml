@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:key="main_settings" android:title="@string/pref_settings">
+
+	<!-- ================= System ================= -->
+	<PreferenceCategory
+		android:layout="@layout/m3_preference_category_layout"
+		android:key="pref_category_system_key"
+		android:title="@string/pref_category_system">
+
+		<Preference android:icon="@drawable/palette_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="pref_appearance_and_style"
+			android:title="@string/pref_appearance_title"
+			android:summary="@string/pref_appearance_summary">
+			<intent android:targetPackage="com.app.resultviewbd"
+				android:targetClass="com.app.resultviewbd.activity.StyleSettingsActivity" />
+		</Preference>
+
+		<com.app.resultviewbd.preference.MaterialListPreference
+			android:key="language_preference"
+			android:title="@string/pref_select_language_title"
+			android:summary="%s" android:entries="@array/language_options"
+			android:entryValues="@array/language_option_values"
+			android:defaultValue="default" android:icon="@drawable/language_24px"
+			android:layout="@layout/m3_preference_layout" />
+
+		<com.app.resultviewbd.preference.StringSwitchPreference
+			android:icon="@drawable/ac_unit_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="disable_seasonal_effect"
+			android:title="@string/pref_disable_seasonal_effect_title"
+			android:summary="@string/pref_disable_seasonal_effect_summary"
+			android:defaultValue="false" />
+
+		<com.app.resultviewbd.preference.StringSwitchPreference
+			android:icon="@drawable/code_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="enable_logcat"
+			android:title="@string/pref_enable_logcat_title"
+			android:summary="@string/pref_enable_logcat_summary"
+			android:defaultValue="false" />
+
+	</PreferenceCategory>
+
+	<!-- ================= About ================= -->
+	<PreferenceCategory
+		android:layout="@layout/m3_preference_category_layout"
+		android:key="pref_category_info_key"
+		android:title="@string/pref_category_about">
+
+		<Preference android:icon="@drawable/account_circle_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="pref_developer_name_key"
+			android:title="@string/pref_developed_by_title"
+			android:summary="@string/pref_developed_by_summary" />
+
+		<Preference android:icon="@drawable/newspaper_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="pref_news_information_key"
+			android:title="@string/pref_news_title"
+			android:summary="@string/pref_news_summary" />
+
+		<Preference android:icon="@drawable/update_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="pref_updates_checker_key"
+			android:title="@string/pref_check_updates_title"
+			android:summary="@string/pref_check_updates_summary" />
+
+		<Preference android:icon="@drawable/shield_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="pref_privacy_policy_key"
+			android:title="@string/pref_privacy_policy_title"
+			android:summary="@string/pref_privacy_policy_summary" />
+
+	</PreferenceCategory>
+
+	<!-- ================= Support ================= -->
+	<PreferenceCategory
+		android:layout="@layout/m3_preference_category_layout"
+		android:key="pref_category_support_key"
+		android:title="@string/pref_category_support">
+
+		<Preference android:icon="@drawable/star_rate_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="pref_rate_it_key"
+			android:title="@string/pref_rate_it_title"
+			android:summary="@string/pref_rate_it_summary" />
+
+		<Preference android:icon="@drawable/ads_click_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="pref_try_more_apps_key"
+			android:title="@string/pref_try_more_apps_title"
+			android:summary="@string/pref_try_more_apps_summary" />
+
+		<Preference android:icon="@drawable/feedback_24px"
+			android:layout="@layout/m3_preference_layout"
+			android:key="pref_feedback_key"
+			android:title="@string/pref_feedback_title"
+			android:summary="@string/pref_feedback_summary" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

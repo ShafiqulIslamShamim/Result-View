@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; background-color: #525659; }
+        #pdf-container { display: flex; flex-direction: column; align-items: center; padding: 10px 0; }
+        canvas { display: block; margin-bottom: 12px; max-width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.3); background-color: #ffffff; }
+        
+        /* ─── প্রিন্ট এবং পিডিএফ সেভ করার জন্য বিশেষ CSS ─── */
+        @media print {
+            body, html {
+                background-color: #ffffff !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                height: auto !important;
+            }
+            #pdf-container {
+                padding: 0 !important;
+                display: block !important;
+            }
+            canvas {
+                margin: 0 !important;
+                box-shadow: none !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                /* প্রতিটি ক্যানভাসের পর নতুন পেজ তৈরি করতে বাধ্য করবে */
+                page-break-after: always !important;
+                break-after: page !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="pdf-container"></div>
+
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+        
+        function renderPdfFromBase64(base64Data) {
+            var rawData = atob(base64Data);
+            var uint8Array = new Uint8Array(rawData.length);
+            for (var i = 0; i < rawData.length; i++) {
+                uint8Array[i] = rawData.charCodeAt(i);
+            }
+
+            var loadingTask = pdfjsLib.getDocument({ data: uint8Array });
+            loadingTask.promise.then(function(pdf) {
+                var container = document.getElementById('pdf-container');
+                container.innerHTML = ''; 
+
+                for (var pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+                    renderPage(pdf, pageNum, container);
+                }
+            }).catch(function(error) {
+                console.error("PDF.js rendering error: ", error);
+            });
+        }
+
+        function renderPage(pdf, pageNum, container) {
+            pdf.getPage(pageNum).then(function(page) {
+                // রেজুলেশন একদম নিখুঁত এবং ক্রিস্প (HD) রাখার জন্য স্কেল ২.০ করা হয়েছে
+                var scale = 2.0; 
+                var viewport = page.getViewport({ scale: scale });
+                
+                var canvas = document.createElement('canvas');
+                var context = canvas.getContext('2d');
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+                container.appendChild(canvas);
+                
+                var renderContext = {
+                    canvasContext: context,
+                    viewport: viewport
+                };
+                page.render(renderContext);
+            });
+        }
+    </script>
+</body>
+</html>

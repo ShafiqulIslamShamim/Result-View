@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<string name="app_name">Result View</string>
+
+	<string name="settings">Settings</string>
+	<string name="shortcut_main_short">Home</string>
+	<string name="shortcut_main_long">Open Main Screen</string>
+	<string name="shortcut_settings_short">Settings</string>
+	<string name="shortcut_settings_long">Open Settings</string>
+
+	<!-- Activity Title -->
+	<string name="gpa_calculator_title">GPA &amp; CGPA Calculator</string>
+
+	<!-- Tab Texts -->
+	<string name="tab_ssc_hsc">SSC / HSC</string>
+	<string name="tab_university">University</string>
+
+	<!-- Button Texts -->
+	<string name="add_subject">+ Add Subject</string>
+	<string name="add_year">+ Add Year</string>
+	<string name="calculate">Calculate</string>
+	<string name="grade_title">Grade</string>
+	<string name="fourth_sub_title">Optional (4th) subject</string>
+	<string name="year_wise_cgpa_title">Year-wise CGPA</string>
+
+	<!-- Result Labels -->
+	<string name="result_gpa">GPA: </string>
+	<string name="result_gpa_format">GPA: %.2f</string>
+	<string name="result_grade_format_default">Grade: </string>
+	<string name="result_grade_format">Grade: %s</string>
+	<string name="result_cgpa">CGPA: </string>
+	<string name="result_cgpa_format">CGPA: %.2f</string>
+	<string name="result_division">Division: </string>
+	<string name="result_final_year_cgpa">Final CGPA: </string>
+	<string name="result_final_year_cgpa_format">Final CGPA: %.2f</string>
+
+	<!-- Division Names -->
+	<string name="division_first_class">First Class</string>
+	<string name="division_second_class">Second Class</string>
+	<string name="division_third_class">Third Class</string>
+	<string name="division_fail">Fail</string>
+
+	<!-- Toast Message -->
+	<string name="error_fill_all_fields">Fill in all the information
+		correctly.</string>
+
+	<!-- Optional Subject Title (SSC/HSC mode) -->
+	<string name="optional_subject_title">Optional Subject (if any)</string>
+
+	<!-- Year ordinal suffix (যদি চান তবে বাংলায়ও করা যায়, কিন্তু ইংরেজিতে
+		রাখলে ভালো) -->
+	<string name="year_ordinal_1">1st Year</string>
+	<string name="year_ordinal_2">2nd Year</string>
+	<string name="year_ordinal_3">3rd Year</string>
+	<string name="year_ordinal_4">4th Year</string>
+	<string name="year_ordinal_5">5th Year</string>
+	<string name="year_ordinal_6">6th Year</string>
+	<string name="year_ordinal_7">7th Year</string>
+	<string name="year_ordinal_8">8th Year</string>
+	<string name="year_ordinal_9">9th Year</string>
+	<string name="year_ordinal_10">10th Year</string>
+	<string name="year_ordinal_11">11th Year</string>
+	<string name="year_ordinal_12">12th Year</string>
+	<string name="year_ordinal_13">13th Year</string>
+	<string name="year_ordinal_14">14th Year</string>
+	<string name="year_ordinal_15">15th Year</string>
+	<string name="year_ordinal_16">16th Year</string>
+	<string name="year_ordinal_17">17th Year</string>
+	<string name="year_ordinal_18">18th Year</string>
+	<string name="year_ordinal_19">19th Year</string>
+	<string name="year_ordinal_20">20th Year</string>
+	<string name="year_ordinal_21">21st Year</string>
+	<string name="year_ordinal_22">22nd Year</string>
+	<string name="year_ordinal_23">23rd Year</string>
+	<string name="year_ordinal_24">24th Year</string>
+	<string name="year_ordinal_25">25th Year</string>
+	<string name="year_ordinal_26">26th Year</string>
+	<string name="year_ordinal_27">27th Year</string>
+	<string name="year_ordinal_28">28th Year</string>
+	<string name="year_ordinal_29">29th Year</string>
+	<string name="year_ordinal_30">30th Year</string>
+	<string name="year_ordinal_31">31st Year</string>
+	<string name="year_ordinal_32">32nd Year</string>
+	<string name="year_ordinal_33">33rd Year</string>
+	<string name="year_ordinal_34">34th Year</string>
+	<string name="year_ordinal_35">35th Year</string>
+	<string name="year_ordinal_36">36th Year</string>
+	<string name="year_ordinal_37">37th Year</string>
+	<string name="year_ordinal_38">38th Year</string>
+	<string name="year_ordinal_39">39th Year</string>
+	<string name="year_ordinal_40">40th Year</string>
+	<string name="year_ordinal_41">41st Year</string>
+	<string name="year_ordinal_42">42nd Year</string>
+	<string name="year_ordinal_43">43rd Year</string>
+	<string name="year_ordinal_44">44th Year</string>
+	<string name="year_ordinal_45">45th Year</string>
+	<string name="year_ordinal_46">46th Year</string>
+	<string name="year_ordinal_47">47th Year</string>
+	<string name="year_ordinal_48">48th Year</string>
+	<string name="year_ordinal_49">49th Year</string>
+	<string name="year_ordinal_50">50th Year</string>
+
+	<string name="year_ordinal_default">th Year</string>
+
+	<string name="category_ssc_hsc">SSC &amp; HSC</string>
+	<string name="category_national_university">NATIONAL UNIVERSITY</string>
+	<string name="category_global_features">GLOBAL FEATURES</string>
+
+	<string name="item_results">Results</string>
+	<string name="item_rescrutiny">Rescrutiny</string>
+	<string name="item_notice_board">Notice Board</string>
+	<string name="item_gpa_calculator">GPA &amp; CGPA Calculator</string>
+
+	<string name="toast_failed_load_menu">Failed to load menu: %1$s</string>
+
+	<!-- Toolbar / Menu related (optional, if you want) -->
+	<string name="menu_reset">Reset</string>
+	<string name="menu_settings">Settings</string>
+
+
+	<!-- WebViewActivity Related Strings -->
+	<string name="toast_no_url_or_network">URL not found or Network
+		is unavailable</string>
+	<string name="toast_network_available">Network available.
+		Reloading page.</string>
+	<string name="toast_network_lost">Network lost. Showing offline
+		page.</string>
+	<string name="toast_downloading_file">Downloading File</string>
+	<string name="toast_download_failed">Download failed: %1$s</string>
+	<string name="toast_print_not_supported">Print not supported</string>
+	<string name="toast_select_printer_or_pdf">Select printer or
+		Save as PDF</string>
+	<string name="toast_desktop_mode_enabled">Desktop mode enabled</string>
+	<string name="toast_mobile_mode_enabled">Mobile mode enabled</string>
+	<string name="toast_link_copied">Link copied</string>
+
+	<!-- Menu item titles (optional, but recommended for localization) -->
+	<string name="menu_refresh">Refresh</string>
+	<string name="menu_open_with">Open with</string>
+	<string name="menu_desktop_mode">Desktop Mode</string>
+	<string name="menu_share">Share</string>
+	<string name="menu_print">Print or Save PDF</string>
+	<string name="menu_copy_link">Copy Link</string>
+
+	<!-- Share chooser title -->
+	<string name="share_chooser_title">Share via</string>
+	<string name="open_with_chooser_title">Open with</string>
+
+
+
+
+
+	<!-- Settings Titles -->
+	<string name="settings_title">Settings</string>
+	<string name="news_updates_title">News &amp; Updates</string>
+	<string name="close">Close</string>
+
+
+
+	<!-- News Dialog Items -->
+	<string name="news_facebook">Facebook Page</string>
+	<string name="news_github">GitHub Repository</string>
+
+	<!-- Email Feedback -->
+	<string name="feedback_subject">Feedback - %1$s v%2$s (Code %3$d)</string>
+	<string name="send_feedback_chooser">Send Feedback</string>
+
+
+	<string name="main_server_title">Main Server</string>
+	<string name="ssc_hsc_result_title">SSC &amp; HSC Results</string>
+	<string name="main_server_summary">View results immediately upon
+		their first public
+		release on the dedicated websites.</string>
+	<string name="board_server_title">Board Server</string>
+	<string name="board_server_summary">Access results with complete
+		marks sheets. Note:
+		Marks sheets are usually published a few days
+		after the initial result
+		announcement.</string>
+	<string name="result_by_sms_title">Result by SMS</string>
+	<string name="sms_contains">SMS</string>
+
+	<!-- SSC & HSC Boards -->
+	<string name="json_dhaka_board">Dhaka Board</string>
+	<string name="json_rajshahi_board">Rajshahi Board</string>
+	<string name="json_comilla_board">Comilla Board</string>
+	<string name="json_jessore_board">Jessore Board</string>
+	<string name="json_chittagong_board">Chittagong Board</string>
+	<string name="json_barisal_board">Barisal Board</string>
+	<string name="json_sylhet_board">Sylhet Board</string>
+	<string name="json_dinajpur_board">Dinajpur Board</string>
+	<string name="json_mymensingh_board">Mymensingh Board</string>
+	<string name="json_madrasah_board">Madrasah Board</string>
+	<string name="json_technical_board">Technical Board</string>
+	<string name="json_dibs">DIBS</string>
+	<string name="json_education_board">Education Board</string>
+
+	<!-- SSC & HSC Result Servers -->
+	<string name="json_server_1">Server 1</string>
+	<string name="json_server_2">Server 2</string>
+
+	<!-- National University Results -->
+	<string name="json_nu_recent_results">Recently Published Results</string>
+	<string name="json_nu_archive_results">Archive Results</string>
+	<string name="json_nu_admission_results">Admission Results</string>
+
+	<!-- SSC & HSC Rescrutiny -->
+	<string name="json_ssc_hsc_rescrutiny_apply">Apply For Rescrutiny</string>
+	<string name="json_ssc_hsc_rescrutiny_help">Help</string>
+
+	<!-- NU Rescrutiny -->
+	<string name="json_nu_rescrutiny_apply">Apply For Rescrutiny</string>
+	<string name="json_nu_rescrutiny_result">Rescrutiny Result</string>
+
+
+	<string name="json_cat_educational_board">Educational Board</string>
+
+	<!-- National University Category -->
+	<string name="json_nu_admission">Admission</string>
+	<string name="json_nu_form_fillup">Form Fillup</string>
+	<string name="json_nu_official_website">Official Website</string>
+
+	<!-- National University Notices -->
+	<string name="json_nu_recent_notice">Recent Notice</string>
+	<string name="json_nu_exam_notice">Exam Notice</string>
+	<string name="json_nu_admission_notice">Admission Notice</string>
+
+	<string name="welcome">Welcome to Result View</string>
+	<string name="summary">
+		View and save results as PDF, calculate GPA &amp;
+		CGPA easily and
+		securely.
+	</string>
+
+	<string name="select_language">Select Language</string>
+	<string name="lang_default">Default</string>
+	<string name="bangla">বাংলা</string>
+
+	<string name="get_started">Get Started</string>
+
+
+
+	<!-- Network / Internet -->
+	<string name="internet_not_available">Internet is not available!</string>
+	<string name="internet_available_auto_reload">Internet
+		available! Auto-reloading...</string>
+
+	<!-- Dialog titles & messages -->
+	<string name="no_internet_error">Can\'t load data without
+		internet connection.</string>
+
+	<!-- Dialog buttons -->
+	<string name="cancel">Cancel</string>
+
+	<!-- Loading -->
+	<string name="loading_latest_result">Loading the latest result...</string>
+
+	<!-- Errors -->
+	<string name="json_parse_error">Can\'t read the json file: %1$s</string>
+
+
+
+	<!-- Result by SMS -->
+	<string name="error_fill_all_info">Please fill up all the
+		informations.</string>
+	<string name="error_on_board_selections">Illegal board selections.</string>
+	<string name="error_on_opening_message_app">Can\'t open the
+		messaging app.</string>
+	<string name="error_on_exam_type">Exam type is invalid.</string>
+
+
+	<!-- Translate array items -->
+
+	<string name="theme_follow_system">Follow System</string>
+	<string name="theme_dark_mode">Dark Mode</string>
+	<string name="theme_light_mode">Light Mode</string>
+
+	<string name="language_default">Default</string>
+	<string name="language_ban">Bangla</string>
+
+	<string name="app_theme_dynamic">Dynamic theme</string>
+	<string name="app_theme_default">Default theme</string>
+
+
+
+
+	<!-- Settings Preference -->
+
+
+
+	<!-- General -->
+	<string name="pref_settings">Settings</string>
+
+	<!-- Categories -->
+	<string name="pref_category_system">System</string>
+	<string name="pref_category_about">About</string>
+	<string name="pref_category_support">Support</string>
+
+	<!-- System -->
+	<string name="pref_app_theme_title">App theme</string>
+	<string name="pref_select_mode_title">Select mode</string>
+	<string name="pref_select_language_title">Select language</string>
+	<string name="pref_disable_seasonal_effect_title">Seasonal effect</string>
+	<string name="pref_disable_seasonal_effect_summary">Turn on to
+		disable seasonal effect</string>
+	<string name="pref_enable_logcat_title">Enable logcat</string>
+	<string name="pref_enable_logcat_summary">Turn on to enable
+		logcat logging</string>
+
+	<!-- About -->
+	<string name="pref_developed_by_title">Developed by</string>
+	<string name="pref_developed_by_summary">Shafiqul Islam Shamim</string>
+
+	<string name="pref_news_title">News</string>
+	<string name="pref_news_summary">Stay informed about updates and
+		other news.</string>
+
+	<string name="pref_check_updates_title">Check for updates</string>
+	<string name="pref_check_updates_summary">
+		Check for the latest
+		version on the Google Play
+		Store.
+	</string>
+
+	<string name="pref_privacy_policy_title">Privacy policy</string>
+	<string name="pref_privacy_policy_summary">
+		Privacy policy • Terms &amp; conditions.
+	</string>
+
+	<!-- Support -->
+	<string name="pref_rate_it_title">Rate it</string>
+	<string name="pref_rate_it_summary">
+		Every rate will encourage to make the app more
+		better.
+	</string>
+
+	<string name="pref_try_more_apps_title">Try more apps</string>
+	<string name="pref_try_more_apps_summary">
+		All my apps are available in this link.
+	</string>
+
+	<string name="pref_feedback_title">Feedback</string>
+	<string name="pref_feedback_summary">
+		Tell how this app can be improved more or report
+		issues.
+	</string>
+
+	<string name="raw_cgpa">CGPA</string>
+	<string name="total_credit_hind">Total Credits</string>
+	<string name="raw_grade">Grade</string>
+	<string name="raw_credit">Credit</string>
+	<string name="year_name_hind">Year Name</string>
+	<string name="pdf_save_title">Save as PDF</string>
+
+	<string name="pref_disclaimer_title">Disclaimer</string>
+
+	<string name="pref_disclaimer_summary">
+		Result View is NOT an official government
+		application. This app is NOT
+		affiliated with, endorsed by, or
+		authorized by the Government of
+		Bangladesh, any Education Board, or the
+		National University. It only
+		provides convenient access to publicly
+		available official government
+		websites.
+	</string>
+
+	<!-- No Internet Screen -->
+	<string name="no_internet_title">No Internet Connection</string>
+
+	<string name="no_internet_message">
+		Please check your internet connection and try
+		again.
+		Turn on mobile data or connect to a Wi-Fi network.
+	</string>
+
+	<string name="enable_wifi">Enable Wi-Fi</string>
+
+	<string name="mobile_data">Enable Mobile Data</string>
+
+	<string name="nu_sms_name_type_hind">Select Exam Type</string>
+	<string name="nu_sms_roll_number_hind">Input Roll Number</string>
+	<string name="nu_sms_year_hind">Select Year</string>
+	<string name="nu_sms_send_title">Send SMS</string>
+
+	<string name="ssc_sms_name_type_hind">Select Exam Type</string>
+	<string name="ssc_sms_roll_number_hind">Input Roll Number</string>
+	<string name="ssc_sms_year_hind">Select Year</string>
+	<string name="ssc_sms_board_hind">Select Year</string>
+	<string name="ssc_sms_send_title">Send SMS</string>
+	<string name="action_settings">Settings</string>
+
+
+	<string name="toolbar_jpg_saver">PDF Result To JPG</string>
+	<string name="tab_to_pdf_title">Tap to choose PDF file</string>
+	<string name="jpg_conversion_failed_toast">Conversion failed</string>
+	<string name="process_bar_title">Processing</string>
+	<string name="pdf_to_jpg_processing_toast">Please wait,
+		converting PDF to images…</string>
+	<string name="jpg_conversion_success_toast">PDF successfully
+		converted to JPG images!\nConverted
+		image saved in
+		/Pictures/PdfImages/ directory.</string>
+
+	<string name="success_dialog_title">Success</string>
+	<string name="success_dialog_positive_btn">Ok</string>
+	<string name="success_dialog_neutral_btn">View Images</string>
+
+
+	<string name="save_fab_title">Save</string>
+	<string name="save_as_jpg">Save as JPG</string>
+
+	<string name="error_on_image_viewer">No app found to view images</string>
+
+	<string name="error_on_generating_pdf">PDF generation failed
+		(empty file). Check WebView
+		content.</string>
+	<string name="error_on_conversion_jpg">Error converting PDF to
+		images</string>
+	<string name="error_on_creating_pdf">Error creating PDF:\u0020</string>
+	<string name="menu_save_image">Save Page as JPG</string>
+	<string name="error_on_no_image_found">No images found in the
+		album.</string>
+	<string name="subject_wise_cgpa_title">Subject-wise CGPA</string>
+
+	<string name="notifications">Notifications</string>
+	<string name="no_notifications">No notifications available</string>
+	<string name="err_invalid_cgpa">CGPA cannot be more than 4.00.</string>
+
+	<!-- Appearance & Style -->
+	<string name="pref_appearance_title">Appearance &amp; Style</string>
+	<string name="pref_appearance_summary">Personalize your color palette, AMOLED mode, and
+		light/dark theme modes</string>
+
+	<!-- Style Screen -->
+	<string name="style_title">Style</string>
+	<string name="style_close">Close</string>
+
+	<!-- Active Badge -->
+	<string name="active_dynamic">Dynamic Active</string>
+	<string name="active_emerald">Emerald Active</string>
+	<string name="active_blossom">Blossom Active</string>
+	<string name="active_ocean">Ocean Active</string>
+	<string name="active_amber">Amber Active</string>
+	<string name="active_coral">Coral Active</string>
+	<string name="active_default">Default Active</string>
+
+	<!-- Categories -->
+	<string name="accents_and_schemes">Accents &amp; Schemes</string>
+	<string name="preferred_theme_mode">Preferred Theme Mode</string>
+
+	<!-- Dynamic Theme Option -->
+	<string name="dynamic_color_theme">Dynamic Color Theme (Default)</string>
+
+	<!-- Accent Names -->
+	<string name="accent_emerald">Emerald</string>
+	<string name="accent_blossom">Blossom</string>
+	<string name="accent_ocean">Ocean</string>
+	<string name="accent_amber">Amber</string>
+	<string name="accent_coral">Coral</string>
+
+	<!-- Theme Mode Buttons -->
+	<string name="theme_system">System</string>
+	<string name="theme_light">Off (Light)</string>
+	<string name="theme_dark">On (Dark)</string>
+
+	<!-- AMOLED Option -->
+	<string name="amoled_black_mode">AMOLED Black Mode</string>
+	<string name="amoled_description">Uses pitch-black background to save battery</string>
+
+
+	<!-- OTA Update Helper -->
+	<string name="update_checking_title">Checking for Updates</string>
+	<string name="update_checking_message">Please wait, searching for the latest version...</string>
+
+	<string name="update_available_title">Update Available</string>
+	<string name="update_available_message">A new version of this app is available. Update now
+		to receive the latest features and bug fixes.</string>
+	<string name="update_now">Update Now</string>
+	<string name="update_later">Later</string>
+
+	<string name="update_up_to_date_title">Up to Date</string>
+	<string name="update_up_to_date_message">You are already using the latest version of this
+		app.</string>
+
+	<string name="update_no_internet">No internet connection available.</string>
+	<string name="update_no_activity">Unable to check for updates: Activity context is
+		not available.</string>
+	<string name="update_failed_launch">Failed to launch update</string>
+	<string name="update_failed_play_store">Failed to open Google Play Store.</string>
+
+
+	<!-- Main activity search hind -->
+	<string name="main_search_hind">Search Boards, Results, Calculator...</string>
+</resources>

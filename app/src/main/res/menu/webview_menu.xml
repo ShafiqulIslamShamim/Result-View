@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item android:id="@+id/action_refresh"
+		android:icon="@drawable/ic_menu_refresh"
+		android:title="@string/menu_refresh" app:showAsAction="never" />
+
+	<item android:id="@+id/action_open_with"
+		android:icon="@drawable/ic_menu_open_with"
+		android:title="@string/menu_open_with" app:showAsAction="never" />
+
+	<item android:id="@+id/action_desktop_mode"
+		android:icon="@drawable/ic_menu_desktop"
+		android:title="@string/menu_desktop_mode" android:checkable="true"
+		app:showAsAction="never" />
+
+	<item android:id="@+id/action_share"
+		android:icon="@drawable/ic_menu_share"
+		android:title="@string/menu_share" app:showAsAction="never" />
+
+	<item android:id="@+id/action_print"
+		android:icon="@drawable/ic_menu_print"
+		android:title="@string/menu_print" app:showAsAction="never" />
+
+	<item android:id="@+id/action_save_image"
+		android:icon="@drawable/imagesmode_24px"
+		android:title="@string/menu_save_image" app:showAsAction="never" />
+
+	<item android:id="@+id/action_copy_link"
+		android:icon="@drawable/ic_menu_copy"
+		android:title="@string/menu_copy_link" app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:width="320dp" android:height="160dp"
+	android:viewportWidth="800" android:viewportHeight="400">
+
+	<!-- Scenic Backdrop: Sun/Circular Aura behind the scenery -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.04"
+		android:pathData="M 660,170 m -160,0 a 160,160 0 1,1 320,0 a 160,160 0 1,1 -320,0" />
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.07"
+		android:pathData="M 660,170 m -80,0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0" />
+
+	<!-- Soft Horizontal Base Ground Oval -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.18"
+		android:pathData="M 40,350 C 40,315 200,285 400,285 C 600,285 760,315 760,350 C 760,385 600,415 400,415 C 200,415 40,385 40,350 Z" />
+
+	<!-- Distant Birds flying in V-formations -->
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.12"
+		android:strokeWidth="2.5" android:strokeLineCap="round"
+		android:pathData="M 280,120 L 288,112 L 296,120" />
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.08"
+		android:strokeWidth="2.0" android:strokeLineCap="round"
+		android:pathData="M 480,95 L 486,90 L 492,95" />
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.10"
+		android:strokeWidth="1.8" android:strokeLineCap="round"
+		android:pathData="M 520,70 L 528,64 L 536,70" />
+
+	<!-- LEFT SIDE: Medium Leaf-Tree -->
+	<!-- Trunk -->
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.12"
+		android:strokeWidth="5" android:strokeLineCap="round"
+		android:pathData="M 120,170 V 355" />
+	<!-- Leaf Body -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.40"
+		android:pathData="M 120,170 C 60,210 60,275 120,295 C 180,275 180,210 120,170 Z" />
+	<!-- Veins -->
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.12"
+		android:strokeWidth="3.5" android:strokeLineCap="round"
+		android:pathData="M 120,275 L 85,245 M 120,275 L 155,245 M 120,240 L 80,210 M 120,240 L 160,210 M 120,205 L 95,185 M 120,205 L 145,185" />
+
+	<!-- LEFT INSIDE: Miniature Ground Leaf -->
+	<!-- Leaf Body -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.45"
+		android:pathData="M 205,300 C 180,320 180,355 205,365 C 230,355 230,320 205,300 Z" />
+	<!-- Veins/Stem -->
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.15"
+		android:strokeWidth="2.5" android:strokeLineCap="round"
+		android:pathData="M 205,300 V 365 M 205,352 L 187,337 M 205,352 L 223,337 M 205,335 L 187,320 M 205,335 L 223,320 M 205,315 L 195,307 M 205,315 L 215,307" />
+
+	<!-- RIGHT SIDE: Giant Leaf-Tree -->
+	<!-- Trunk -->
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.12"
+		android:strokeWidth="7" android:strokeLineCap="round"
+		android:pathData="M 660,20 V 370" />
+	<!-- Leaf Body -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.32"
+		android:pathData="M 660,20 C 530,120 530,280 660,325 C 790,280 790,120 660,20 Z" />
+	<!-- Veins -->
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.10"
+		android:strokeWidth="4" android:strokeLineCap="round"
+		android:pathData="M 660,290 L 575,230 M 660,290 L 745,230 M 660,225 L 560,160 M 660,225 L 760,160 M 660,155 L 570,100 M 660,155 L 750,100 M 660,90 L 610,45 M 660,90 L 710,45" />
+
+	<!-- RIGHT INSIDE: Miniature Ground Leaf -->
+	<!-- Leaf Body -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.45"
+		android:pathData="M 645,310 C 615,330 615,365 645,375 C 675,365 675,330 645,310 Z" />
+	<!-- Veins/Stem -->
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.15"
+		android:strokeWidth="2.5" android:strokeLineCap="round"
+		android:pathData="M 645,310 V 375 M 645,362 L 625,347 M 645,362 L 665,347 M 645,345 L 625,330 M 645,345 L 665,330 M 645,325 L 633,317 M 645,325 L 657,317" />
+
+	<!-- CENTER FIGURES: Dynamic Silhouette Shadow -->
+	<path android:fillColor="#000000" android:fillAlpha="0.08"
+		android:pathData="M 290,342 C 290,335 410,335 410,342 C 410,349 290,349 290,342 Z" />
+
+	<!-- CENTER FIGURES: Woman Silhouette standing -->
+
+	<!-- Shoes & Ankles (Skin & Bottom layer) -->
+	<!-- Left Ankle -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.65"
+		android:pathData="M 324,315 H 336 V 332 H 324 Z" />
+	<!-- Right Ankle -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.65"
+		android:pathData="M 374,315 H 386 V 332 H 374 Z" />
+	<!-- Left Shoe -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.12"
+		android:pathData="M 318,330 C 318,325 342,325 342,330 C 342,342 318,342 318,330 Z" />
+	<!-- Right Shoe -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.12"
+		android:pathData="M 368,330 C 368,325 392,325 392,330 C 392,342 368,342 368,330 Z" />
+
+	<!-- Wide Trousers/Pants -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.12"
+		android:pathData="M 313,175 H 387 C 392,175 395,195 395,215 L 398,320 H 358 L 350,230 L 342,320 H 302 L 305,215 C 305,195 308,175 313,175 Z" />
+	<!-- Pants Divider/Crease Split -->
+	<path android:strokeColor="#FFFFFF" android:strokeAlpha="0.08"
+		android:strokeWidth="1.5" android:pathData="M 350,175 V 230" />
+
+	<!-- Face, Neck & Hands (Skin tone highlights) -->
+	<!-- Neck -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.75"
+		android:pathData="M 342,95 H 358 V 118 H 342 Z" />
+	<!-- Face -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.75"
+		android:pathData="M 350,55 C 338,55 334,70 334,85 C 334,100 342,108 350,108 C 358,108 366,100 366,85 C 366,70 362,55 350,55 Z" />
+	<!-- Left Hand -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.75"
+		android:pathData="M 306,170 C 304,170 305,178 311,178 Z" />
+	<!-- Right Hand -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.75"
+		android:pathData="M 394,170 C 396,170 395,178 389,178 Z" />
+
+	<!-- Blouse/Shirt Torso body -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.58"
+		android:pathData="M 342,110 L 320,118 C 315,118 310,140 310,175 H 390 C 390,140 385,118 380,118 L 358,110 Z" />
+
+	<!-- Sleeves / Outward Arms -->
+	<!-- Left Sleeve -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.48"
+		android:pathData="M 324,115 L 260,150 C 255,153 255,160 262,165 L 310,175 C 310,175 305,152 308,135 Z" />
+	<!-- Right Sleeve -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.48"
+		android:pathData="M 376,115 L 440,150 C 445,153 445,160 438,165 L 390,175 C 390,175 395,152 392,135 Z" />
+
+	<!-- V-Neck Skin exposure cut-out -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.75"
+		android:pathData="M 342,110 L 350,135 L 358,110 Z" />
+
+	<!-- Gorgeous flowing Curly Hair -->
+	<path android:fillColor="#FFFFFF" android:fillAlpha="0.12"
+		android:pathData="M 350,20 C 310,20 295,45 305,75 C 295,90 300,110 320,122 C 322,123 325,120 324,115 C 320,105 324,95 328,95 H 332 C 330,115 342,130 350,130 C 358,130 370,115 368,95 H 372 C 376,95 380,105 376,115 C 375,120 378,123 380,122 C 400,110 405,90 395,75 C 405,45 390,20 350,20 Z" />
+
+</vector>

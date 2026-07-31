@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<string name="app_name">রেজাল্ট ভিউ</string>
+
+	<string name="settings">সেটিংস</string>
+	<string name="shortcut_main_short">হোম</string>
+	<string name="shortcut_main_long">মূল স্ক্রিন খুলুন</string>
+	<string name="shortcut_settings_short">সেটিংস</string>
+	<string name="shortcut_settings_long">সেটিংস খুলুন</string>
+
+	<string name="gpa_calculator_title">জিপিএ ও সিজিপিএ ক্যালকুলেটর</string>
+
+	<string name="tab_ssc_hsc">এসএসসি / এইচএসসি</string>
+	<string name="tab_university">বিশ্ববিদ্যালয়</string>
+
+	<string name="add_subject">+ বিষয় যোগ করুন</string>
+	<string name="add_year">+ বর্ষ যোগ করুন</string>
+	<string name="calculate">হিসাব করুন</string>
+	<string name="grade_title">গ্রেড</string>
+	<string name="fourth_sub_title">ঐচ্ছিক (চতুর্থ) বিষয়</string>
+	<string name="year_wise_cgpa_title">বর্ষভিত্তিক সিজিপিএ</string>
+
+	<string name="result_gpa">জিপিএ: </string>
+	<string name="result_gpa_format">জিপিএ: %.2f</string>
+	<string name="result_grade_format_default">গ্রেড: </string>
+	<string name="result_grade_format">গ্রেড: %s</string>
+	<string name="result_cgpa">সিজিপিএ: </string>
+	<string name="result_cgpa_format">সিজিপিএ: %.2f</string>
+	<string name="result_division">বিভাগ: </string>
+	<string name="result_final_year_cgpa">চূড়ান্ত সিজিপিএ: </string>
+	<string name="result_final_year_cgpa_format">চূড়ান্ত সিজিপিএ: %.2f</string>
+
+	<string name="division_first_class">প্রথম শ্রেণি</string>
+	<string name="division_second_class">দ্বিতীয় শ্রেণি</string>
+	<string name="division_third_class">তৃতীয় শ্রেণি</string>
+	<string name="division_fail">অকৃতকার্য</string>
+
+	<string name="error_fill_all_fields">সব তথ্য সঠিকভাবে পূরণ করুন।</string>
+
+	<string name="optional_subject_title">ঐচ্ছিক বিষয় (যদি থাকে)</string>
+
+	<string name="year_ordinal_1">১ম বর্ষ</string>
+	<string name="year_ordinal_2">২য় বর্ষ</string>
+	<string name="year_ordinal_3">৩য় বর্ষ</string>
+	<string name="year_ordinal_4">৪র্থ বর্ষ</string>
+	<string name="year_ordinal_5">৫ম বর্ষ</string>
+	<string name="year_ordinal_6">৬ষ্ঠ বর্ষ</string>
+	<string name="year_ordinal_7">৭ম বর্ষ</string>
+	<string name="year_ordinal_8">৮ম বর্ষ</string>
+	<string name="year_ordinal_9">৯ম বর্ষ</string>
+	<string name="year_ordinal_10">১০ম বর্ষ</string>
+	<string name="year_ordinal_11">১১শ বর্ষ</string>
+	<string name="year_ordinal_12">১২শ বর্ষ</string>
+	<string name="year_ordinal_13">১৩শ বর্ষ</string>
+	<string name="year_ordinal_14">১৪শ বর্ষ</string>
+	<string name="year_ordinal_15">১৫শ বর্ষ</string>
+	<string name="year_ordinal_16">১৬শ বর্ষ</string>
+	<string name="year_ordinal_17">১৭শ বর্ষ</string>
+	<string name="year_ordinal_18">১৮শ বর্ষ</string>
+	<string name="year_ordinal_19">১৯শ বর্ষ</string>
+	<string name="year_ordinal_20">২০শ বর্ষ</string>
+	<string name="year_ordinal_21">২১শ বর্ষ</string>
+	<string name="year_ordinal_22">২২শ বর্ষ</string>
+	<string name="year_ordinal_23">২৩শ বর্ষ</string>
+	<string name="year_ordinal_24">২৪শ বর্ষ</string>
+	<string name="year_ordinal_25">২৫শ বর্ষ</string>
+	<string name="year_ordinal_26">২৬শ বর্ষ</string>
+	<string name="year_ordinal_27">২৭শ বর্ষ</string>
+	<string name="year_ordinal_28">২৮শ বর্ষ</string>
+	<string name="year_ordinal_29">২৯শ বর্ষ</string>
+	<string name="year_ordinal_30">৩০শ বর্ষ</string>
+	<string name="year_ordinal_31">৩১শ বর্ষ</string>
+	<string name="year_ordinal_32">৩২শ বর্ষ</string>
+	<string name="year_ordinal_33">৩৩শ বর্ষ</string>
+	<string name="year_ordinal_34">৩৪শ বর্ষ</string>
+	<string name="year_ordinal_35">৩৫শ বর্ষ</string>
+	<string name="year_ordinal_36">৩৬শ বর্ষ</string>
+	<string name="year_ordinal_37">৩৭শ বর্ষ</string>
+	<string name="year_ordinal_38">৩৮শ বর্ষ</string>
+	<string name="year_ordinal_39">৩৯শ বর্ষ</string>
+	<string name="year_ordinal_40">৪০শ বর্ষ</string>
+	<string name="year_ordinal_41">৪১শ বর্ষ</string>
+	<string name="year_ordinal_42">৪২শ বর্ষ</string>
+	<string name="year_ordinal_43">৪৩শ বর্ষ</string>
+	<string name="year_ordinal_44">৪৪শ বর্ষ</string>
+	<string name="year_ordinal_45">৪৫শ বর্ষ</string>
+	<string name="year_ordinal_46">৪৬শ বর্ষ</string>
+	<string name="year_ordinal_47">৪৭শ বর্ষ</string>
+	<string name="year_ordinal_48">৪৮শ বর্ষ</string>
+	<string name="year_ordinal_49">৪৯ৎ বর্ষ</string>
+	<string name="year_ordinal_50">৫০ৎ বর্ষ</string>
+
+	<string name="year_ordinal_default">তম বর্ষ</string>
+
+	<string name="category_ssc_hsc">এসএসসি ও এইচএসসি</string>
+	<string name="category_national_university">জাতীয় বিশ্ববিদ্যালয়</string>
+	<string name="category_global_features">গ্লোবাল বৈশিষ্ট্যসমূহ</string>
+
+	<string name="item_results">ফলাফল</string>
+	<string name="item_rescrutiny">পুনঃনিরীক্ষণ</string>
+	<string name="item_notice_board">নোটিশ বোর্ড</string>
+	<string name="item_gpa_calculator">জিপিএ ও সিজিপিএ ক্যালকুলেটর</string>
+
+	<string name="toast_failed_load_menu">মেনু লোড করা যায়নি: %1$s</string>
+
+	<string name="menu_reset">রিসেট</string>
+	<string name="menu_settings">সেটিংস</string>
+
+	<string name="toast_no_url_or_network">Url পাওয়া যায়নি অথবা
+		নেটওয়ার্ক সংযোগ নেই</string>
+	<string name="toast_network_available">নেটওয়ার্ক সচল হয়েছে,
+		পেজটি রিলোড হচ্ছে...</string>
+	<string name="toast_network_lost">নেটওয়ার্ক বিচ্ছিন্ন, অফলাইন
+		পেজ দেখানো হচ্ছে...</string>
+	<string name="toast_downloading_file">ফাইলটি ডাউনলোড হচ্ছে...</string>
+	<string name="toast_download_failed">ডাউনলোড ব্যর্থ হয়েছে: %1$s</string>
+	<string name="toast_print_not_supported">প্রিন্ট সুবিধাটি
+		সমর্থিত নয়</string>
+	<string name="toast_select_printer_or_pdf">প্রিন্টার নির্বাচন
+		করুন অথবা পিডিএফ হিসেবে সেভ করুন</string>
+	<string name="toast_desktop_mode_enabled">ডেস্কটপ মোড চালু হয়েছে</string>
+	<string name="toast_mobile_mode_enabled">মোবাইল মোড চালু হয়েছে</string>
+	<string name="toast_link_copied">লিংকটি কপি করা হয়েছে</string>
+
+	<string name="menu_refresh">রিফ্রেশ</string>
+	<string name="menu_open_with">অন্য অ্যাপে খুলুন</string>
+	<string name="menu_desktop_mode">ডেস্কটপ মোড</string>
+	<string name="menu_share">শেয়ার</string>
+	<string name="menu_print">প্রিন্ট অথবা পিডিএফ সেভ</string>
+	<string name="menu_copy_link">লিংক কপি</string>
+
+	<string name="share_chooser_title">শেয়ার করুন</string>
+	<string name="open_with_chooser_title">ওপেন করুন</string>
+
+	<string name="settings_title">সেটিংস</string>
+	<string name="news_updates_title">খবর ও আপডেট</string>
+	<string name="close">বন্ধ করুন</string>
+
+	<string name="news_facebook">ফেসবুক পেজ</string>
+	<string name="news_github">গিটহাব রিপোজিটরি</string>
+
+	<string name="feedback_subject">মতামত - %1$s v%2$s (কোড %3$d)</string>
+	<string name="send_feedback_chooser">মতামত পাঠান</string>
+
+	<string name="main_server_title">মূল সার্ভার</string>
+	<string name="ssc_hsc_result_title">এসএসসি ও এইচএসসি ফলাফল</string>
+	<string name="main_server_summary">ওয়েবসাইটে ফলাফল প্রকাশের সাথে
+		সাথেই রেজাল্ট দেখুন।</string>
+	<string name="board_server_title">বোর্ড সার্ভার</string>
+	<string name="board_server_summary">মার্কশিট সহ বিস্তারিত ফলাফল
+		দেখুন। দ্রষ্টব্য:
+		সাধারণত মূল ফলাফল প্রকাশের কয়েকদিন পর মার্কশিট পাওয়া
+		যায়।</string>
+	<string name="result_by_sms_title">এসএমএস-এর মাধ্যমে রেজাল্ট</string>
+	<string name="sms_contains">এসএমএস</string>
+
+	<string name="json_dhaka_board">ঢাকা বোর্ড</string>
+	<string name="json_rajshahi_board">রাজশাহী বোর্ড</string>
+	<string name="json_comilla_board">কুমিল্লা বোর্ড</string>
+	<string name="json_jessore_board">যশোর বোর্ড</string>
+	<string name="json_chittagong_board">চট্টগ্রাম বোর্ড</string>
+	<string name="json_barisal_board">বরিশাল বোর্ড</string>
+	<string name="json_sylhet_board">সিলেট বোর্ড</string>
+	<string name="json_dinajpur_board">দিনাজপুর বোর্ড</string>
+	<string name="json_mymensingh_board">ময়মনসিংহ বোর্ড</string>
+	<string name="json_madrasah_board">মাদ্রাসা বোর্ড</string>
+	<string name="json_technical_board">কারিগরি বোর্ড</string>
+	<string name="json_dibs">ডিআইবিএস (DIBS)</string>
+	<string name="json_education_board">শিক্ষা বোর্ড</string>
+
+	<string name="json_server_1">সার্ভার ১</string>
+	<string name="json_server_2">সার্ভার ২</string>
+
+	<string name="json_nu_recent_results">সাম্প্রতিক ফলাফল</string>
+	<string name="json_nu_archive_results">আর্কাইভ ফলাফল</string>
+	<string name="json_nu_admission_results">ভর্তি ফলাফল</string>
+
+	<string name="json_ssc_hsc_rescrutiny_apply">পুনঃনিরীক্ষণের জন্য
+		আবেদন</string>
+	<string name="json_ssc_hsc_rescrutiny_help">সাহায্য</string>
+
+	<string name="json_nu_rescrutiny_apply">পুনঃনিরীক্ষণের আবেদন</string>
+	<string name="json_nu_rescrutiny_result">পুনঃনিরীক্ষণের ফলাফল</string>
+
+	<string name="json_cat_educational_board">শিক্ষা বোর্ড</string>
+
+	<string name="json_nu_admission">ভর্তি</string>
+	<string name="json_nu_form_fillup">ফর্ম ফিলাপ</string>
+	<string name="json_nu_official_website">অফিসিয়াল ওয়েবসাইট</string>
+
+	<string name="json_nu_recent_notice">সাম্প্রতিক নোটিশ</string>
+	<string name="json_nu_exam_notice">পরীক্ষার নোটিশ</string>
+	<string name="json_nu_admission_notice">ভর্তি বিষয়ক নোটিশ</string>
+
+	<string name="welcome">রেজাল্ট ভিউ-তে স্বাগতম</string>
+	<string name="summary">
+		রেজাল্ট দেখুন, পিডিএফ হিসেবে সেভ করুন এবং খুব সহজেই
+		জিপিএ ও সিজিপিএ হিসাব
+		করুন।
+	</string>
+
+	<string name="select_language">ভাষা নির্বাচন করুন</string>
+	<string name="lang_default">Default</string>
+	<string name="bangla">বাংলা</string>
+
+	<string name="get_started">শুরু করুন</string>
+
+	<string name="internet_not_available">ইন্টারনেট সংযোগ নেই!</string>
+	<string name="internet_available_auto_reload">ইন্টারনেট সংযোগ
+		চালু হয়েছে! অটো-রিলোড হচ্ছে...</string>
+	<string name="no_internet_error">ইন্টারনেট সংযোগ ছাড়া ডেটা লোড
+		করা সম্ভব নয়।</string>
+
+	<string name="cancel">বাতিল</string>
+	<string name="loading_latest_result">সর্বশেষ ফলাফল লোড হচ্ছে...</string>
+
+	<string name="json_parse_error">JSON ফাইলটি পড়া যাচ্ছে না: %1$s</string>
+
+	<string name="error_fill_all_info">দয়া করে সব তথ্য পূরণ করুন।</string>
+	<string name="error_on_board_selections">বোর্ড নির্বাচন সঠিক নয়।</string>
+	<string name="error_on_opening_message_app">মেসেজিং অ্যাপটি খোলা
+		যাচ্ছে না।</string>
+	<string name="error_on_exam_type">পরীক্ষার ধরণ সঠিক নয়।</string>
+
+	<string name="theme_follow_system">সিস্টেম অনুযায়ী</string>
+	<string name="theme_dark_mode">ডার্ক মোড</string>
+	<string name="theme_light_mode">লাইট মোড</string>
+
+	<string name="language_default">ডিফল্ট</string>
+	<string name="language_ban">বাংলা</string>
+
+	<string name="app_theme_dynamic">ডায়নামিক থিম</string>
+	<string name="app_theme_default">ডিফল্ট থিম</string>
+
+	<string name="pref_settings">সেটিংস</string>
+
+	<string name="pref_category_system">সিস্টেম</string>
+	<string name="pref_category_about">সম্পর্কে</string>
+	<string name="pref_category_support">সাপোর্ট</string>
+
+	<string name="pref_app_theme_title">অ্যাপ থিম</string>
+	<string name="pref_select_mode_title">মোড নির্বাচন</string>
+	<string name="pref_select_language_title">ভাষা নির্বাচন</string>
+	<string name="pref_disable_seasonal_effect_title">সিজনাল ইফেক্ট</string>
+	<string name="pref_disable_seasonal_effect_summary">সিজনাল
+		ইফেক্ট বন্ধ করতে অন করুন</string>
+	<string name="pref_enable_logcat_title">লগক্যাট চালু করুন</string>
+	<string name="pref_enable_logcat_summary">লগক্যাট লগিং চালু করতে
+		এটি অন করুন</string>
+
+	<string name="pref_developed_by_title">নির্মাতা</string>
+	<string name="pref_developed_by_summary">শফিকুল ইসলাম শামিম</string>
+
+	<string name="pref_news_title">খবর</string>
+	<string name="pref_news_summary">আপডেট এবং অন্যান্য খবর সম্পর্কে
+		জানুন।</string>
+
+	<string name="pref_check_updates_title">আপডেট চেক করুন</string>
+	<string name="pref_check_updates_summary">
+		গুগল প্লে স্টোর থেকে
+		অ্যাপের সর্বশেষ সংস্করণ চেক
+		করুন।
+	</string>
+
+	<string name="pref_privacy_policy_title">গোপনীয়তা নীতিমালা</string>
+	<string name="pref_privacy_policy_summary">
+		গোপনীয়তা নীতিমালা • শর্তাবলী।
+	</string>
+
+	<string name="pref_rate_it_title">রেটিং দিন</string>
+	<string name="pref_rate_it_summary">
+		আপনার প্রতিটি রেটিং অ্যাপটিকে আরও ভালো করতে উৎসাহিত
+		করে।
+	</string>
+
+	<string name="pref_try_more_apps_title">আরও অ্যাপ দেখুন</string>
+	<string name="pref_try_more_apps_summary">
+		আমার তৈরি সব অ্যাপ এই লিংকে পাওয়া যাবে।
+	</string>
+
+	<string name="pref_feedback_title">মতামত দিন</string>
+	<string name="pref_feedback_summary">
+		এই অ্যাপটি কীভাবে আরও উন্নত করা যায় তা জানান অথবা
+		যেকোনো সমস্যা রিপোর্ট
+		করুন।
+	</string>
+
+	<string name="raw_cgpa">সিজিপিএ</string>
+	<string name="total_credit_hind">মোট ক্রেডিট</string>
+	<string name="raw_grade">গ্রেড</string>
+	<string name="raw_credit">ক্রেডিট</string>
+	<string name="year_name_hind">বর্ষের নাম</string>
+	<string name="pdf_save_title">PDF হিসেবে সংরক্ষণ করুন</string>
+
+	<string name="pref_disclaimer_title">দায়মুক্তি ঘোষণা</string>
+
+	<string name="pref_disclaimer_summary">
+		Result View কোনো সরকারি অ্যাপ নয়। এই অ্যাপটি
+		বাংলাদেশ সরকার, কোনো শিক্ষা
+		বোর্ড বা জাতীয় বিশ্ববিদ্যালয়ের সঙ্গে
+		সংযুক্ত, অনুমোদিত বা
+		অনুমোদনপ্রাপ্ত নয়। এটি শুধুমাত্র অফিসিয়াল সরকারি
+		ওয়েবসাইটে প্রকাশিত
+		পাবলিক তথ্য দেখার সুবিধা প্রদান করে।
+	</string>
+
+	<!-- No Internet Screen -->
+	<string name="no_internet_title">ইন্টারনেট সংযোগ নেই</string>
+
+	<string name="no_internet_message">
+		আপনার ইন্টারনেট সংযোগটি চালু নেই।
+		অনুগ্রহ করে মোবাইল
+		ডাটা অথবা Wi-Fi চালু করে আবার চেষ্টা করুন।
+	</string>
+
+	<string name="enable_wifi">Wi-Fi চালু করুন</string>
+
+	<string name="mobile_data">মোবাইল ডাটা চালু করুন</string>
+
+
+	<string name="nu_sms_name_type_hind">পরীক্ষার ধরণ নির্বাচন করুন</string>
+	<string name="nu_sms_roll_number_hind">রোল নম্বর লিখুন</string>
+	<string name="nu_sms_year_hind">বছর নির্বাচন করুন</string>
+	<string name="nu_sms_send_title">এসএমএস পাঠান</string>
+
+	<string name="ssc_sms_name_type_hind">পরীক্ষার ধরণ নির্বাচন করুন</string>
+	<string name="ssc_sms_roll_number_hind">রোল নম্বর লিখুন</string>
+	<string name="ssc_sms_year_hind">বছর নির্বাচন করুন</string>
+	<string name="ssc_sms_board_hind">বছর নির্বাচন করুন</string>
+	<string name="ssc_sms_send_title">এসএমএস পাঠান</string>
+
+	<string name="action_settings">সেটিংস</string>
+
+
+
+	<string name="toolbar_jpg_saver">JPG-তে PDF ফলাফল</string>
+	<string name="tab_to_pdf_title">পিডিএফ ফাইল নির্বাচন করতে আলতো চাপুন</string>
+
+	<string name="jpg_conversion_failed_toast">রূপান্তর ব্যর্থ হয়েছে</string>
+
+	<string name="process_bar_title">প্রক্রিয়াকরণ</string>
+
+	<string name="pdf_to_jpg_processing_toast">দয়া করে অপেক্ষা
+		করুন, PDF কে ছবিতে রূপান্তর করা
+		হচ্ছে...</string>
+
+	<string name="jpg_conversion_success_toast">পিডিএফ সফলভাবে JPG
+		ছবিতে রূপান্তরিত
+		হয়েছে!\n/Pictures/PdfImages/ ডিরেক্টরিতে রূপান্তরিত
+		ছবি সংরক্ষিত
+		হয়েছে।</string>
+
+	<string name="success_dialog_title">সফল</string>
+
+	<string name="success_dialog_positive_btn">ঠিক আছে</string>
+
+	<string name="success_dialog_neutral_btn">ছবি দেখুন</string>
+
+	<string name="save_fab_title">সংরক্ষণ করুন</string>
+	<string name="save_as_jpg">JPG হিসেবে সংরক্ষণ করুন</string>
+
+	<string name="error_on_image_viewer">ছবি দেখার জন্য কোনও অ্যাপ
+		পাওয়া যায়নি</string>
+
+	<string name="error_on_generating_pdf">পিডিএফ তৈরি করা ব্যর্থ
+		হয়েছে (খালি ফাইল)। ওয়েবভিউ
+		কন্টেন্ট পরীক্ষা করুন।</string>
+
+	<string name="error_on_conversion_jpg">পিডিএফকে ছবিতে রূপান্তর
+		করার সময় ত্রুটি পরিলক্ষিত
+		হয়েছে!</string>
+
+	<string name="error_on_creating_pdf">পিডিএফ তৈরি করার সময়
+		ত্রুটি:\u0020</string>
+
+	<string name="menu_save_image">পৃষ্ঠা JPG হিসেবে সংরক্ষণ করুন</string>
+	<string name="error_on_no_image_found">অ্যালবামে কোনও ছবি পাওয়া
+		যায়নি।</string>
+	<string name="subject_wise_cgpa_title">বিষয়-ভিত্তিক সিজিপিএ</string>
+	<string name="notifications">বিজ্ঞপ্তি</string>
+	<string name="no_notifications">কোনও বিজ্ঞপ্তি উপলব্ধ নেই</string>
+	<string name="err_invalid_cgpa">CGPA ৪.০০ এর বেশি হতে পারে না।</string>
+
+
+
+
+	<!-- Appearance & Style -->
+	<string name="pref_appearance_title">স্টাইল ও রূপান্তর</string>
+	<string name="pref_appearance_summary">আপনার প্রিয় রঙের প্যালেট, অ্যামোলেড মোড ও
+		ডার্ক/লাইট মোড কাস্টমাইজ করুন</string>
+
+	<!-- স্টাইল স্ক্রিন -->
+	<string name="style_title">স্টাইল</string>
+	<string name="style_close">বন্ধ করুন</string>
+
+	<!-- সক্রিয় ব্যাজ -->
+	<string name="active_dynamic">ডাইনামিক সক্রিয়</string>
+	<string name="active_emerald">এমেরাল্ড সক্রিয়</string>
+	<string name="active_blossom">ব্লসম সক্রিয়</string>
+	<string name="active_ocean">ওশান সক্রিয়</string>
+	<string name="active_amber">অ্যাম্বার সক্রিয়</string>
+	<string name="active_coral">কোরাল সক্রিয়</string>
+	<string name="active_default">ডিফল্ট সক্রিয়</string>
+
+	<!-- বিভাগসমূহ -->
+	<string name="accents_and_schemes">অ্যাকসেন্ট ও রঙের স্কিম</string>
+	<string name="preferred_theme_mode">পছন্দের থিম মোড</string>
+
+	<!-- ডাইনামিক থিম অপশন -->
+	<string name="dynamic_color_theme">ডাইনামিক রঙের থিম (ডিফল্ট)</string>
+
+	<!-- অ্যাকসেন্ট নাম -->
+	<string name="accent_emerald">এমেরাল্ড</string>
+	<string name="accent_blossom">ব্লসম</string>
+	<string name="accent_ocean">ওশান</string>
+	<string name="accent_amber">অ্যাম্বার</string>
+	<string name="accent_coral">কোরাল</string>
+
+	<!-- থিম মোড বোতাম -->
+	<string name="theme_system">সিস্টেম</string>
+	<string name="theme_light">বন্ধ (লাইট)</string>
+	<string name="theme_dark">চালু (ডার্ক)</string>
+
+	<!-- AMOLED অপশন -->
+	<string name="amoled_black_mode">অ্যামোলেড কালো মোড</string>
+	<string name="amoled_description">ব্যাটারি সাশ্রয়ের জন্য সম্পূর্ণ কালো ব্যাকগ্রাউন্ড
+		ব্যবহার করে</string>
+
+	<!-- OTA আপডেট সহায়ক -->
+	<string name="update_checking_title">আপডেট খোঁজা হচ্ছে</string>
+	<string name="update_checking_message">অনুগ্রহ করে অপেক্ষা করুন, সর্বশেষ সংস্করণ খোঁজা
+		হচ্ছে...</string>
+
+	<string name="update_available_title">আপডেট উপলব্ধ</string>
+	<string name="update_available_message">এই অ্যাপের একটি নতুন সংস্করণ উপলব্ধ। সর্বশেষ ফিচার
+		ও বাগ সমাধান পেতে এখনই আপডেট করুন।</string>
+	<string name="update_now">এখনই আপডেট করুন</string>
+	<string name="update_later">পরে</string>
+
+	<string name="update_up_to_date_title">সর্বশেষ সংস্করণ ব্যবহার করছেন</string>
+	<string name="update_up_to_date_message">আপনি ইতোমধ্যে এই অ্যাপের সর্বশেষ সংস্করণ ব্যবহার
+		করছেন।</string>
+
+	<string name="update_no_internet">ইন্টারনেট সংযোগ উপলব্ধ নেই।</string>
+	<string name="update_no_activity">আপডেট পরীক্ষা করা যায়নি: অ্যাক্টিভিটি কনটেক্সট
+		উপলব্ধ নেই।</string>
+	<string name="update_failed_launch">আপডেট চালু করতে ব্যর্থ হয়েছে</string>
+	<string name="update_failed_play_store">গুগল প্লে স্টোর খুলতে ব্যর্থ হয়েছে।</string>
+
+	<string name="main_search_hind">বোর্ড, ফলাফল, ক্যালকুলেটর খুঁজুন...</string>
+
+</resources>

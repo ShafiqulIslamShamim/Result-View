@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.google.android.material.card.MaterialCardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" app:cardCornerRadius="16dp"
+	app:cardElevation="2dp" android:layout_marginBottom="10dp">
+
+	<LinearLayout android:orientation="horizontal"
+		android:gravity="center_vertical" android:padding="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<com.google.android.material.textfield.TextInputLayout
+			android:id="@+id/gradeLayout"
+			style="@style/RoundedOutlinedTextInput.ExposedDropdownMenu"
+			android:layout_width="0dp" android:layout_weight="1"
+			android:layout_height="wrap_content" android:hint="@string/raw_grade">
+
+			<AutoCompleteTextView
+				android:id="@+id/gradeSpinner" android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:inputType="none" />
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.textfield.TextInputLayout
+			android:id="@+id/creditLayout"
+			style="@style/RoundedOutlinedTextInput" android:layout_width="0dp"
+			android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_marginStart="8dp" android:hint="@string/raw_credit">
+
+			<com.google.android.material.textfield.TextInputEditText
+				android:id="@+id/creditInput" android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:inputType="numberDecimal" />
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<!-- Remove with Cross Icon -->
+		<com.google.android.material.button.MaterialButton
+			android:id="@+id/removeBtn" android:layout_width="40dp"
+			android:layout_height="40dp" android:layout_marginStart="8dp"
+			app:cornerRadius="12dp" style="?attr/materialButtonOutlinedStyle"
+			android:textColor="?attr/colorError"
+			app:icon="@android:drawable/ic_menu_close_clear_cancel"
+			app:iconGravity="textStart" android:padding="0dp" />
+	</LinearLayout>
+</com.google.android.material.card.MaterialCardView>

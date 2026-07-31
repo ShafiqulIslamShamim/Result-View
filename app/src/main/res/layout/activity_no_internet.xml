@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" android:orientation="vertical"
+	android:gravity="center" android:padding="24dp"
+	android:background="?attr/colorSurface">
+
+	<com.airbnb.lottie.LottieAnimationView
+		android:layout_width="wrap_content" android:layout_height="300dp"
+		app:lottie_rawRes="@raw/no_file_found" app:lottie_autoPlay="true"
+		app:lottie_loop="true" />
+
+	<TextView android:text="@string/no_internet_title"
+		android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+
+	<TextView android:text="@string/no_internet_message"
+		android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="8dp"
+		android:gravity="center" />
+
+	<com.google.android.material.button.MaterialButton
+		android:id="@+id/btnMobileData" android:text="@string/mobile_data"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		style="@style/Widget.Material3.Button" android:layout_marginTop="24dp" />
+
+	<com.google.android.material.button.MaterialButton
+		android:id="@+id/btnWifi" android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/enable_wifi"
+		style="@style/Widget.Material3.Button" android:layout_marginTop="12dp" />
+
+</LinearLayout>

@@ -1,0 +1,184 @@
+Privacy Policy for Result View
+
+Effective Date: November 28, 2025
+Developer Name: Shafiqul Islam Shamim
+Contact Email: shafiqulislamshamimofficial@gmail.com
+
+------------------------------------------------------------
+1. Data Collection Overview
+
+We respect your privacy and are committed to transparency.
+
+Result View follows a minimal and limited data collection policy. We do not
+collect personal information such as names, phone numbers, email addresses,
+roll numbers, registration numbers, or any government-issued identifiers.
+
+However, limited non-personal data may be collected automatically through
+trusted third-party services (Firebase) to ensure app stability, security,
+and improved user experience.
+
+------------------------------------------------------------
+2. Automatically Collected Information (Firebase Services)
+
+The app uses Google Firebase, a service provided by Google LLC.
+
+A. Firebase Analytics
+
+Purpose:
+- To understand general app usage patterns
+- To improve app features and user experience
+
+Data Collected (Non-Personal):
+- App interaction events (screen views, feature usage)
+- Device information (model, OS version)
+- App version
+- Approximate location (country-level only)
+
+Important Notes:
+- No personal or academic data is collected
+- Data is aggregated and anonymized
+- Google processes this data according to its privacy policy
+
+------------------------------------------------------------
+B. Firebase Crashlytics
+
+Purpose:
+- To detect, monitor, and fix app crashes and errors
+
+Data Collected (Non-Personal):
+- Crash logs and stack traces
+- Device type and operating system
+- App state during a crash
+
+Important Notes:
+- Crash reports do not intentionally contain personal data
+- Data is used only to improve app stability
+
+------------------------------------------------------------
+C. Firebase Remote Config
+
+Purpose:
+- To remotely deliver configuration data (such as JSON-based server links)
+- To update result-related links without releasing a new app update
+
+Data Handling:
+- Remote Config does not collect user-input data
+- It only provides configuration values from Firebase servers
+
+------------------------------------------------------------
+3. Information Collected Manually by the User
+
+The app processes information only when the user actively provides it.
+This data is not stored on our servers.
+
+A. Result Viewing Input (Sent to External Servers)
+
+Data Used:
+- Examination type (SSC, HSC, NU, etc.)
+- Board name
+- Exam year
+- Roll number
+- Registration number
+
+Data Handling:
+- This data is submitted directly to official external education board
+  websites through the in-app WebView
+- We do not store, log, or analyze this information
+- Data handling is governed by the external websites’ privacy policies
+
+------------------------------------------------------------
+B. GPA / CGPA Calculator
+
+Data Used:
+- Subject grades and credit values
+
+Data Handling:
+- Calculations are performed entirely on the user’s device
+- No data is stored, transmitted, or shared
+
+------------------------------------------------------------
+C. Result via SMS Feature
+
+Data Used:
+- Examination details (Board, Roll Number, Year)
+
+Data Handling:
+- Used only to pre-fill the device’s default SMS application
+- Messages are sent by the user’s mobile carrier
+- We do not collect phone numbers, message content, or SMS status
+
+------------------------------------------------------------
+4. Permissions and Device Access
+
+The app requests permissions only for core functionality.
+
+Permission: android.permission.INTERNET
+Purpose:
+- Load official result websites
+- Communicate with Firebase services
+
+Data Handling:
+- Used only for connectivity and service delivery
+
+------------------------------------------------------------
+Permission: android.permission.READ_EXTERNAL_STORAGE
+Permission: android.permission.WRITE_EXTERNAL_STORAGE
+
+Purpose:
+- Allow users to save logcat locally
+
+Data Handling:
+- Access occurs only when the user explicitly saves a file
+
+------------------------------------------------------------
+5. Third-Party Services and Links
+
+Third-Party Services Used:
+- Google Firebase (Analytics, Crashlytics, Remote Config)
+
+Firebase Privacy Policy:
+https://policies.google.com/privacy
+
+------------------------------------------------------------
+External Educational Websites
+
+The app opens publicly available official government and educational board
+websites, including SSC, HSC, and National University result portals.
+
+We are not responsible for the content, security, or privacy practices of
+these external websites. Users should review their privacy policies before
+submitting information.
+
+------------------------------------------------------------
+6. Children’s Privacy
+
+Result View is not directed toward children under the age of 13.
+
+- We do not knowingly collect personal data from children
+- Firebase services may collect limited non-personal usage data as described
+- Parents or guardians may contact us if they believe personal data was provided
+
+------------------------------------------------------------
+7. Disclaimer
+
+Result View is not an official government application and is not affiliated
+with, endorsed by, or authorized by the Government of Bangladesh or any
+government entity.
+
+------------------------------------------------------------
+8. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time.
+
+- Changes will be posted on this page
+- The Effective Date will be updated accordingly
+
+Users are encouraged to review this policy periodically.
+
+------------------------------------------------------------
+9. Contact Us
+
+If you have any questions or concerns regarding this Privacy Policy, please contact:
+
+Developer: Shafiqul Islam Shamim
+Email: shafiqulislamshamimofficial@gmail.com

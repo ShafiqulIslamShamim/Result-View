@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" android:orientation="vertical">
+
+	<!-- AppBar -->
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<com.google.android.material.appbar.MaterialToolbar
+			android:id="@+id/toolbar" android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorSurface"
+			app:navigationIcon="?attr/homeAsUpIndicator"
+			app:navigationIconTint="?attr/colorOnSurface"
+			app:titleTextColor="?attr/colorOnSurface" />
+
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<!-- Clickable Root Layout -->
+	<LinearLayout android:id="@+id/rootLayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" android:gravity="center"
+		android:orientation="vertical" android:clickable="true"
+		android:focusable="true"
+		android:background="?attr/selectableItemBackground">
+
+		<!-- Content -->
+		<LinearLayout android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:orientation="vertical" android:clickable="false"
+			android:focusable="false">
+
+			<ImageButton android:id="@+id/btnPickPdf"
+				android:layout_width="100dp" android:layout_height="100dp"
+				android:background="?attr/selectableItemBackgroundBorderless"
+				android:src="@drawable/attach_file_24px"
+				android:tint="?attr/colorPrimary" android:scaleType="center"
+				android:clickable="false" android:focusable="false" />
+
+			<TextView android:id="@+id/textview"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/tab_to_pdf_title" android:textSize="22sp"
+				android:textStyle="italic" android:gravity="center"
+				android:textAlignment="center" android:paddingHorizontal="16dp"
+				android:paddingTop="8dp" android:maxLines="3"
+				android:ellipsize="none" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

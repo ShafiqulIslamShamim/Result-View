@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<!-- AppBar -->
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<com.google.android.material.appbar.MaterialToolbar
+			android:id="@+id/toolbar" android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorSurface"
+			app:titleTextColor="?attr/colorOnSurface"
+			app:navigationIcon="?attr/homeAsUpIndicator"
+			app:navigationIconTint="?attr/colorOnSurface" />
+
+		<ProgressBar android:id="@+id/topProgressBar"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_width="match_parent" android:layout_height="4dp"
+			android:max="100" android:visibility="gone"
+			android:progressTint="?attr/colorPrimaryContainer" />
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<!-- WebView -->
+	<im.delight.android.webview.AdvancedWebView
+		android:id="@+id/webView" android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+	<com.leinardi.android.speeddial.SpeedDialView
+		android:id="@+id/speedDial" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|end" android:layout_margin="16dp"
+		android:visibility="gone"
+		app:sdMainFabClosedSrc="@drawable/ic_file_image"
+		app:sdMainFabOpenedSrc="@drawable/ic_close"
+		app:sdMainFabClosedBackgroundColor="?attr/colorPrimaryContainer"
+		app:sdMainFabOpenedBackgroundColor="?attr/colorPrimaryContainer"
+		app:sdMainFabClosedIconColor="?attr/colorOnPrimaryContainer"
+		app:sdMainFabOpenedIconColor="?attr/colorOnPrimaryContainer" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

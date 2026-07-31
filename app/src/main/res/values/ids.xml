@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<!-- Define ID resources here -->
+	<item name="action_save_jpg" type="id" />
+	<item name="action_save_pdf" type="id" />
+</resources>

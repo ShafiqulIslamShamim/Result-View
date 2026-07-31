@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="?attr/colorSurface">
+
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/appBarLayout" android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/transparent" app:elevation="0dp">
+
+		<com.google.android.material.appbar.CollapsingToolbarLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:paddingBottom="4dp" app:layout_collapseMode="parallax">
+
+				<!-- 🔹 TOP ACTIONS PANEL 🔹 -->
+				<com.google.android.material.appbar.MaterialToolbar
+					android:id="@+id/topAppBar" android:layout_width="match_parent"
+					android:layout_height="?attr/actionBarSize"
+					app:titleTextAppearance="@style/ToolbarTitle"
+					android:background="@android:color/transparent" />
+
+				<!-- 🔹 EXPRESSIVE ROUNDED SEARCH BAR 🔹 -->
+				<com.google.android.material.card.MaterialCardView
+					android:layout_width="match_parent" android:layout_height="48dp"
+					android:layout_marginHorizontal="20dp"
+					android:layout_marginTop="2dp" android:layout_marginBottom="0dp"
+					app:strokeWidth="0dp" app:cardElevation="0dp"
+					app:cardBackgroundColor="?attr/colorSurfaceContainerHigh"
+					app:cardCornerRadius="24dp">
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center_vertical" android:orientation="horizontal"
+						android:paddingHorizontal="16dp">
+
+						<ImageView android:layout_width="22dp"
+							android:layout_height="22dp"
+							android:src="@android:drawable/ic_menu_search"
+							app:tint="?attr/colorPrimary" />
+
+						<EditText android:id="@+id/searchEditText"
+							android:layout_width="0dp" android:layout_height="match_parent"
+							android:layout_weight="1" android:layout_marginStart="12dp"
+							android:background="@android:color/transparent"
+							android:hint="@string/main_search_hind" android:textSize="14sp"
+							android:textColor="?attr/colorOnSurface"
+							android:textColorHint="?attr/colorOnSurfaceVariant"
+							android:singleLine="true" android:imeOptions="actionSearch" />
+
+						<ImageView android:id="@+id/searchClearButton"
+							android:layout_width="20dp" android:layout_height="20dp"
+							android:src="@android:drawable/ic_menu_close_clear_cancel"
+							android:visibility="gone" app:tint="?attr/colorOnSurfaceVariant"
+							android:clickable="true" android:focusable="true" />
+					</LinearLayout>
+				</com.google.android.material.card.MaterialCardView>
+
+			</LinearLayout>
+
+		</com.google.android.material.appbar.CollapsingToolbarLayout>
+
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<!-- 🔹 Recycler View with scroll behavior 🔹 -->
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/recyclerMain" android:layout_width="match_parent"
+		android:layout_height="match_parent" android:clipToPadding="false"
+		android:paddingBottom="24dp"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

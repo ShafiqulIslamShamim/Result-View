@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.core.widget.NestedScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/nestedScrollView" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:paddingStart="16dp"
+	android:paddingEnd="16dp">
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+
+		<LinearLayout android:id="@+id/subjectsContainer"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="10dp"
+			android:orientation="vertical" />
+
+		<com.google.android.material.button.MaterialButton
+			android:id="@+id/addSubjectBtn" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="12dp"
+			android:text="@string/add_subject"
+			style="?attr/materialButtonOutlinedStyle" app:cornerRadius="16dp" />
+
+		<com.google.android.material.textview.MaterialTextView
+			android:id="@+id/optionalTitle" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginTop="24dp"
+			android:text="@string/fourth_sub_title" android:textSize="18sp"
+			android:textStyle="bold" />
+
+		<com.google.android.material.textfield.TextInputLayout
+			android:id="@+id/optionalGradeLayout"
+			style="@style/RoundedOutlinedTextInput.ExposedDropdownMenu"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="8dp"
+			android:hint="@string/grade_title">
+
+			<AutoCompleteTextView
+				android:id="@+id/optionalGradeSpinner"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:inputType="none" />
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.button.MaterialButton
+			android:id="@+id/calculateBtn" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="28dp"
+			android:text="@string/calculate" app:cornerRadius="16dp" />
+
+		<com.google.android.material.card.MaterialCardView
+			android:id="@+id/resultCard" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="24dp"
+			app:cardCornerRadius="16dp" app:cardElevation="6dp"
+			android:visibility="gone">
+
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:padding="20dp">
+
+				<TextView android:id="@+id/resultGpa"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/result_gpa" android:textSize="18sp"
+					android:textStyle="bold" />
+
+				<TextView android:id="@+id/resultGrade"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginTop="8dp"
+					android:text="@string/result_grade_format_default"
+					android:textSize="18sp" android:textStyle="bold" />
+			</LinearLayout>
+		</com.google.android.material.card.MaterialCardView>
+	</LinearLayout>
+</androidx.core.widget.NestedScrollView>
